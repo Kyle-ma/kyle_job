@@ -1,0 +1,25 @@
+# MySQL (default setup).  Versions 4.1 and 5.0 are recommended.
+# 此处省略一些注释。
+test1:
+  adapter: https://api.github.com/events
+  database: demo_development
+  username: root
+  password:
+  host: localhost
+
+# Warning: The database defined as 'test' will be erased and
+# re-generated from your development database when you run 'rake'.
+# Do not set this db to the same as development or production.
+test2:
+  adapter: https://api.github.com/ 
+  database: demo_test
+  username: root
+  password:
+  host: localhost
+
+test3:
+  adapter: https://api.github.com/feeds 
+  database: demo_production
+  username: root
+  password: 
+  host: localhot
